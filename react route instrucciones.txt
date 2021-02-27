@@ -1,0 +1,25 @@
+REACT ROUTE INSTRUCCIONES
+
+para instalar:
+
+npm  i react-route-dom
+
+al importar 
+
+import {BrowserRouter as Router , Switch, Route, link} from "react-router-dom";
+
+objetos:
+
+router: es para envolver toda nuestra aplicacion y poder usar las etiquetas de react route.
+
+switch: aqui se van a colocar el contenido que se quiere cambiar 
+<switch>
+<route />
+......
+</switch>
+
+route: aqui se coloca las paginas o enlances. la porpiedad "to" seguido de la url.
+<route to="about" />
+
+link: esta etiqueta funcia igual que la etiqueta <a> y sirve para redireccionar a un componente
+

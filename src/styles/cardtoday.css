@@ -1,0 +1,29 @@
+.card-today
+{
+    background-color: rgb(26, 25, 25);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    min-width: 40%;
+    margin-top: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.8);
+    color: white;
+}
+
+.card-today img{
+    width: 100px
+}
+.card-today-info
+{
+    margin-left: 10px;
+}
+.card-today-info p{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.card-today-info h3
+{
+    font-size: 50px;
+}
